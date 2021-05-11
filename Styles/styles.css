@@ -1,0 +1,66 @@
+body{
+  background-color: #28527a;
+  text-align: center;
+  height:100vh;
+  margin: 0;
+}
+.heading{
+  text-align: center;
+  padding: 20px;
+  font-size: 2rem;
+  color: white;
+}
+.heading i{
+  color: red;
+}
+.single-button{
+   height:100px;
+   width: 100px;
+   /* padding: 20px; */
+   margin: 20px;
+   color: #732673;
+   font-weight: bold;
+   font-size: 3em;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  align-items: center;
+  font-size: 2em;
+}
+footer i{
+  color: red;
+}
+.single-button{
+  background-size: cover;
+}
+.w-button{
+    background-image: url("../images/tom1.png");
+}
+.a-button{
+    background-image: url("../images/tom2.png");
+}
+.s-button{
+    background-image: url("../images/tom3.png");
+}
+.d-button{
+    background-image: url("../images/tom4.png");
+}
+.j-button{
+    background-image: url("../images/crash.png");
+}
+.k-button{
+    background-image: url("../images/kick.png");
+}
+.l-button{
+    background-image: url("../images/snare.png");
+}
+.pressed{
+  box-shadow: 0 3px 4px 0 ;
+  opacity: 0.5;
+  height: 110px;
+  width: 110px;
+
+
+}
